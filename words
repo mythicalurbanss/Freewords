@@ -1,0 +1,7 @@
+
+local args = {
+    [1] = game:GetService("Players").MythicalUrbans,
+    [2] = 5000
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.GiveWords.GiveWords:FireServer(unpack(args))
